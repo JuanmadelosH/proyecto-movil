@@ -1,9 +1,27 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Proyectomovil" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<resources>
+    <style name="Theme.IMC" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Colores del kit -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
 
-    <style name="Theme.Proyectomovil" parent="Base.Theme.Proyectomovil" />
+        <!-- Widgets por defecto -->
+        <item name="materialButtonStyle">@style/WidgetAppButtonFilled</item>
+        <item name="materialButtonOutlinedStyle">@style/WidgetAppButtonOutlined</item>
+        <item name="textInputStyle">@style/WidgetAppTextInputOutlined</item>
+        <item name="materialCardViewStyle">@style/WidgetAppCard</item>
+    </style>
 </resources>

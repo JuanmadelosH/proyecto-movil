@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Vibrante pero limpio -->
+    <color name="primary">#7C3AED</color>            <!-- violeta -->
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#E9D5FF</color>
+    <color name="onPrimaryContainer">#2E1065</color>
+
+    <color name="secondary">#22C55E</color>          <!-- verde -->
+    <color name="onSecondary">#092C12</color>
+
+    <color name="tertiary">#06B6D4</color>           <!-- turquesa -->
+    <color name="onTertiary">#06282E</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#0B1220</color>
+    <color name="surfaceVariant">#EEF0F6</color>
+    <color name="onSurfaceVariant">#5B6475</color>
+    <color name="background">#F7F7FB</color>
+    <color name="onBackground">#0B1220</color>
+    <color name="outline">#C8CCDA</color>
+    <color name="error">#EF4444</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Para gradientes / ripple -->
+    <color name="gradient_start">#7C3AED</color>
+    <color name="gradient_end">#F43F5E</color>       <!-- rose -->
+    <color name="ripple_primary">#1F000000</color>
+
+    <!-- 12% negro -->
 </resources>

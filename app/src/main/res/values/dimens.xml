@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="au_radius_sm">12dp</dimen>
+    <dimen name="au_radius_md">16dp</dimen>
+    <dimen name="au_radius_lg">28dp</dimen>
+
+    <dimen name="au_space_8">8dp</dimen>
+    <dimen name="au_space_12">12dp</dimen>
+    <dimen name="au_space_16">16dp</dimen>
+    <dimen name="au_space_24">24dp</dimen>
+    <dimen name="au_space_32">32dp</dimen>
+</resources>
