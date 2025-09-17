@@ -1,6 +1,8 @@
 package com.example.proyecto_movil;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,16 +11,24 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class appAlimentacion extends AppCompatActivity {
+    TextView TV_Alimentacion;
+    Button BTN_RestCercanos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_app_alimentacion);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        inicializarComponentes();
+
     }
+
+    public void inicializarComponentes(){
+        TV_Alimentacion = findViewById(R.id.TV_RecomendacionAlimentacion);
+        BTN_RestCercanos = findViewById(R.id.BTN_RestCercanos);
+    }
+
+    public void peticionAPI(){
+
+    }
+
 }
