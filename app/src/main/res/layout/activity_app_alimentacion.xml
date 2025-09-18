@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="34dp"
-        android:text="Restaurantes cercanos"
+        android:text="@string/restaurantes_cercanos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -26,12 +26,14 @@
         android:layout_height="60dp"
         android:layout_marginBottom="46dp"
         android:gravity="center"
-        android:text="Alimentación"
+        android:text="@string/alimentacion"
+        android:textColor="@color/onSurfaceVariant"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/SVPlatos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <ScrollView
         android:id="@+id/SVPlatos"
@@ -42,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="Recomendaciones de Platos">
+        android:contentDescription="@string/recomendaciones">
 
         <LinearLayout
             android:id="@+id/container"
