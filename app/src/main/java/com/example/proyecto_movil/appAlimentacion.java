@@ -35,7 +35,6 @@ public class appAlimentacion extends AppCompatActivity {
     ArrayList<String> sobrepeso = new ArrayList<String>();
     ArrayList<String> obesidad = new ArrayList<String>();
     double imc = 20.1;
-
     String URL = "www.themealdb.com/api/json/v1/1/filter.php?c=";
 
     @Override
@@ -45,7 +44,6 @@ public class appAlimentacion extends AppCompatActivity {
         inicializarComponentes();
 
         quePeticiones();
-
     }
 
     public void inicializarComponentes(){
@@ -84,6 +82,7 @@ public class appAlimentacion extends AppCompatActivity {
     }
 
     public void quePeticiones(){
+        // se realizan las peticiones necesarias
         if(imc > 0 && imc < 18.5){
             for(int i = 0; i < bajoPeso.size(); i++){
                 peticionAPI(bajoPeso.get(i));
@@ -104,6 +103,7 @@ public class appAlimentacion extends AppCompatActivity {
     }
 
     public void peticionAPI(String categoria){
+        // se realiza la peticion a la API y se ponen en el scrollView
         String url =URL+categoria;
 
         RequestQueue queue = Volley.newRequestQueue(this);
