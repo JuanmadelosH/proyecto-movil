@@ -18,7 +18,7 @@
             android:name=".appEjercicio"
             android:exported="false" />
         <activity
-            android:name=".appAlimentacion"
+            android:name=".appRestaurantesCercanos"
             android:exported="false" />
         <activity
             android:name=".appRecomendacion"
@@ -30,7 +30,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".appRestaurantesCercanos"
+            android:name=".appAlimentacion"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

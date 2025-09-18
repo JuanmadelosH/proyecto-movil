@@ -8,20 +8,6 @@
     android:background="@color/surface"
     android:padding="24dp">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/TV_RecomendacionAlimentacion"
-        android:layout_width="279dp"
-        android:layout_height="431dp"
-        android:layout_marginBottom="43dp"
-        android:gravity="center"
-        android:text="Recomendación de comidas saludables para su condición"
-        android:textColor="@color/onSurface"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/BTN_RestCercanos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/BTN_RestCercanos"
         style="@style/WidgetAppButtonOutlined"
@@ -38,12 +24,32 @@
         android:id="@+id/TV_Alimentaacion"
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="46dp"
         android:gravity="center"
         android:text="Alimentación"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/TV_RecomendacionAlimentacion"
+        app:layout_constraintBottom_toTopOf="@+id/SVPlatos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/SVPlatos"
+        android:layout_width="324dp"
+        android:layout_height="471dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/BTN_RestCercanos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Recomendaciones de Platos">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
