@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Color de relleno del botón -->
+    <!-- Es buena práctica usar el color primario de tu tema -->
+    <solid android:color="?attr/colorPrimary" />
+    <!-- O, si quieres un color específico: <solid android:color="@color/tu_color_de_boton" /> (y defines "tu_color_de_boton" en colors.xml) -->
+
+    <!-- Esquinas redondeadas para el botón -->
+    <corners android:radius="8dp" /> <!-- Ajusta "8dp" para el redondeo que desees -->
+
+</shape>

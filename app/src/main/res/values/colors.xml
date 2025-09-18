@@ -26,5 +26,6 @@
     <color name="gradient_end">#F43F5E</color>       <!-- rose -->
     <color name="ripple_primary">#1F000000</color>
 
-    <!-- 12% negro -->
+    <color name="au_secondary_200">#FFBB86FC</color>
+
 </resources>

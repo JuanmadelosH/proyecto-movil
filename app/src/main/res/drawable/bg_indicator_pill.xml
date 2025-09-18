@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Color de relleno de la píldora -->
+    <solid android:color="@color/au_secondary_200" /> <!-- Puedes usar el color que definiste antes u otro -->
+
+    <!-- Esto hace que las esquinas sean redondeadas, creando la forma de píldora -->
+    <corners android:radius="20dp" /> <!-- Ajusta "20dp" para que se vea más o menos redondeado -->
+
+    <!-- Opcional: define un tamaño por defecto para la píldora -->
+    <size
+        android:width="24dp"
+        android:height="8dp" /> <!-- Ajusta el ancho y alto según necesites -->
+</shape>
