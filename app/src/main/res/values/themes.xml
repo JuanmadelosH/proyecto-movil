@@ -19,9 +19,5 @@
         <item name="colorOnError">@color/onError</item>
 
         <!-- Widgets por defecto -->
-        <item name="materialButtonStyle">@style/WidgetAppButtonFilled</item>
-        <item name="materialButtonOutlinedStyle">@style/WidgetAppButtonOutlined</item>
-        <item name="textInputStyle">@style/WidgetAppTextInputOutlined</item>
-        <item name="materialCardViewStyle">@style/WidgetAppCard</item>
     </style>
 </resources>
